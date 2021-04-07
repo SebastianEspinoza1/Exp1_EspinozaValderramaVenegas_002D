@@ -5,9 +5,12 @@ img{
     margin:auto;
     }
 
-.fondo{
+#backgroundhead{
     background-color:#daa520;
 }
+.container-fluid {
+    height: 200px;
+  }
 .color{
         color:white;
 }
@@ -15,7 +18,7 @@ h1{
     color:white;
     text-align: center; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 300%;
+    font-size: 350%;
   }
 
 .button{
@@ -23,8 +26,8 @@ h1{
         color: #ffffff ;
         display: inline-block;
         font-size: 130%;
-        margin: 10px;
-        padding: 10px 0px;
+        margin: 20px;
+        padding: 15px 15px;
         text-align: center;
         width: 200px;
         text-decoration: none;
@@ -55,3 +58,44 @@ h1{
     box-shadow: 0px 0px 0px;
     padding-top: 7px;
 }
+h2{
+    color:black;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 350%;
+    text-decoration: underline goldenrod;
+}
+#caja{
+
+    width: 1000px;
+  
+    border: 7px solid black;
+  
+    padding: 20px;
+  
+    margin: 0px;
+  
+  }
+h3{
+    color:black;
+     
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    text-decoration: underline goldenrod;
+
+}
+p{
+    
+    text-align: justify;
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+.tamaño{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 350%;
+    color:whitesmoke;
+    text-decoration: none;
+    text-shadow:  0.1em 0.0em #333;
+}
+
