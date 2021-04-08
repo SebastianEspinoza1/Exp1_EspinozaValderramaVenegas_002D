@@ -20,7 +20,7 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 350%;
   }
-
+/*colocamos el diseño de los botones*/
 .button{
         background:#000000;
         color: #ffffff ;
@@ -65,28 +65,20 @@ h2{
     font-size: 350%;
     text-decoration: underline goldenrod;
 }
-#caja{
 
-    width: 1000px;
-  
-    border: 7px solid black;
-  
-    padding: 20px;
-  
-    margin: 0px;
-  
-  }
+
+
 h3{
     color:black;
-     
+     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 250%;
+    font-size: 350%;
     text-decoration: underline goldenrod;
 
 }
 p{
     
-    text-align: justify;
+    text-align: justify center;
     font-size: 200%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 } 
@@ -97,5 +89,24 @@ p{
     color:whitesmoke;
     text-decoration: none;
     text-shadow:  0.1em 0.0em #333;
+}
+
+.fondo{
+    background: #daa520;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.fondoo{    
+    background: #B88E23;
+}
+
+.tamaño2{
+    font-size: 50%;
+}
+.copy{
+    font-size: medium;
+    text-align: center;
+    color: black;
 }
 
