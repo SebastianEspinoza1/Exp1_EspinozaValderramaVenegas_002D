@@ -23,7 +23,7 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 350%;
   }
-  /*colocamos el diseño de los botones*/
+  /* diseño de los botones*/
 .button{
     background:#000000;
     color: #ffffff ;
@@ -82,7 +82,7 @@ h3{
 }
 p{
     
-    text-align: justify center;
+    text-align: justify;
     font-size: 200%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 } 
@@ -137,17 +137,7 @@ p{
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 600px){
-    .materialbox-caption {
-         width: 90%;
-    }
-}
 
-@media screen and (max-width: 992px){
-    .materialbox-caption {
-         width: 70%;
-    }
-}
 .navbar {
     overflow: hidden;
     background-color: goldenrod;
