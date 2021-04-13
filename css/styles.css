@@ -112,6 +112,7 @@ p{
     font-size: medium;
     text-align: center;
     color: black;
+    display: inline-block;
 }
 
 .galeria img {
@@ -166,6 +167,30 @@ p{
   .main {
     margin-top: 50px; 
   }
+
+  /*Imagenes juntas*/
+ figure{    
+     margin: 0;
+     display: inline-block;
+     border: 1px;
+     position: relative;
+ }
+
+.der img{
+    border-radius: 20px;
+    float: right;
+    margin-left: 30px;
+}
+
+.izq img{
+    border-radius: 20px;
+    float: left;
+    margin-right: 30px;
+}
+
+.justifi {
+    text-align: justify;
+}
 
 
 
